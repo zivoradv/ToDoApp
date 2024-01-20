@@ -1,0 +1,32 @@
+<!-- dialog_new_task.xml -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- EditText for task name -->
+        <EditText
+            android:id="@+id/editTextTaskName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Task Name"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:textSize="16sp"/>
+
+        <!-- EditText for task description -->
+        <EditText
+            android:id="@+id/editTextTaskDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Task Description"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:textSize="16sp"/>
+
+        <!-- Add more EditTexts for other details (due date, etc.) -->
+
+    </LinearLayout>
+</layout>
